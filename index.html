@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>В разработке</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-right-buttons">
+        <div class="theme-change-button-wrapper">
+            <img src="images/sun.png" alt="Сменить тему" onclick="toggleTheme()">
+        </div>
+        <button id="language-button" class="lang-toggle" onclick="toggleLanguage()">EN</button>
+    </div>
+    <img 
+        srcset="images/logo.png, images/logo@2x.png 2x"
+        src="images/logo.png" 
+        alt="Логотип" 
+        class="logo"
+    >
+    <h1 id="message">Сайт проекта находится в разработке</h1>
+    <div class="social buttons">
+        <div class="social-item">
+            <a href="https://t.me/karcatcoin" target="_blank"><img srcset="images/tg.png, images/tg@2x.png 2x" src="images/tg.png" alt="Telegram"></a>
+            <p>Telegram</p>
+        </div>
+        <div class="social-item">
+            <a href="https://t.me/karcatcoinru" target="_blank"><img srcset="images/tg.png, images/tg@2x.png 2x" src="images/tg.png" alt="Телеграм"></a>
+            <p>Telegram (RU)</p>
+        </div>
+        <div class="social-item">
+            <a href="https://x.com/KarCatcoin" target="_blank"><img srcset="images/x.png, images/x@2x.png 2x" src="images/x.png" alt="X"></a>
+            <p>X (Twitter)</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 KarCat Team</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
